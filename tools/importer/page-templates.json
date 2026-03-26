@@ -1,0 +1,161 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.aveva.com/"
+      ],
+      "description": "AVEVA corporate homepage with hero banners, feature highlights, customer stories, and CTA sections",
+      "blocks": [
+        {
+          "name": "hero-banner",
+          "instances": [
+            "section.hero-banner.u-hero-height-large",
+            "section.hero-banner.u-hero-height-small"
+          ]
+        },
+        {
+          "name": "columns-highlight",
+          "instances": [
+            "section#getAgileSection.background-container",
+            "section.background-container:has(.column-control .col-12.col-sm-6)"
+          ]
+        },
+        {
+          "name": "cards-story",
+          "instances": [
+            ".card-v3.clickable-card"
+          ]
+        },
+        {
+          "name": "cards-icon",
+          "instances": [
+            ".card-v2-t1.clickable-card"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero Banner",
+          "selector": "div.herobanner:first-of-type",
+          "style": null,
+          "blocks": [
+            "hero-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Announcement Bar",
+          "selector": "div.announcement",
+          "style": "accent",
+          "blocks": [],
+          "defaultContent": [
+            "div.announcement-block .cmp-text"
+          ]
+        },
+        {
+          "id": "section-3",
+          "name": "Get Agile",
+          "selector": "section#getAgileSection",
+          "style": null,
+          "blocks": [
+            "columns-highlight"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "Expand Collaboration",
+          "selector": [
+            "div.background-container.aem-GridColumn:nth-of-type(2)",
+            "div.background-container.aem-GridColumn:has(.column-control .cmp-image[alt='Expand collaboration'])"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-highlight"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5",
+          "name": "Gartner Recognition",
+          "selector": "div.herobanner:nth-of-type(2)",
+          "style": null,
+          "blocks": [
+            "hero-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-6",
+          "name": "Advance Sustainability",
+          "selector": [
+            "div.background-container.aem-GridColumn:nth-of-type(3)",
+            "div.background-container.aem-GridColumn:has(.column-control .cmp-image[alt='Advance sustainability'])"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-highlight"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-7",
+          "name": "CONNECT Effect Banner",
+          "selector": "div.image.aem-GridColumn:has(a[href*='connect-effect'])",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "a.cmp-image__link[href*='connect-effect']"
+          ]
+        },
+        {
+          "id": "section-8",
+          "name": "Customer Success Stories",
+          "selector": "section.background-container:has(.card-v3)",
+          "style": null,
+          "blocks": [
+            "cards-story"
+          ],
+          "defaultContent": [
+            "h2.background-container__heading"
+          ]
+        },
+        {
+          "id": "section-9",
+          "name": "Our Industrial Life Newsletter",
+          "selector": "div.herobanner:nth-of-type(3)",
+          "style": null,
+          "blocks": [
+            "hero-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-10",
+          "name": "Industrial Ingenuity Cards",
+          "selector": "section.background-container:has(.card-v2-t1)",
+          "style": null,
+          "blocks": [
+            "cards-icon"
+          ],
+          "defaultContent": [
+            "h2.background-container__heading"
+          ]
+        },
+        {
+          "id": "section-11",
+          "name": "Speak with an Expert CTA",
+          "selector": "div.herobanner:nth-of-type(4)",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "div.hero-banner-content"
+          ]
+        }
+      ]
+    }
+  ]
+}

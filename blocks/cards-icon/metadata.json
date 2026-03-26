@@ -1,0 +1,38 @@
+{
+  "variantName": "cards-icon",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-25T20:55:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.aveva.com/",
+    "originPage": "AVEVA corporate homepage",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "feature-navigation",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "icon + heading + description + link",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "feature/capability navigation cards",
+      "service overview cards with icons",
+      "solution category cards"
+    ],
+    "notSuitableFor": [
+      "cards with large photography",
+      "detailed content cards with long descriptions"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-25T20:55:00.000Z"
+  }
+}

@@ -1,0 +1,33 @@
+.columns-highlight > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-highlight img {
+  width: 100%;
+}
+
+.columns-highlight > div > div {
+  order: 1;
+}
+
+.columns-highlight > div > .columns-highlight-img-col {
+  order: 0;
+}
+
+.columns-highlight > div > .columns-highlight-img-col img {
+  display: block;
+}
+
+@media (width >= 900px) {
+  .columns-highlight > div {
+    align-items: center;
+    flex-direction: unset;
+    gap: 24px;
+  }
+
+  .columns-highlight > div > div {
+    flex: 1;
+    order: unset;
+  }
+}

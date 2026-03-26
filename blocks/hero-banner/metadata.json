@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-banner",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-03-25T20:55:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.aveva.com/",
+    "originPage": "AVEVA corporate homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "promotional-banner",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "background-image + heading + text + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "event promotion banners",
+      "product announcement banners",
+      "newsletter signup banners",
+      "recognition/award banners"
+    ],
+    "notSuitableFor": [
+      "text-only heroes without background images",
+      "heroes with multiple columns"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-25T20:55:00.000Z"
+  }
+}

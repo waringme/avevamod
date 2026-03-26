@@ -1,0 +1,38 @@
+{
+  "variantName": "cards-story",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-25T20:55:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.aveva.com/",
+    "originPage": "AVEVA corporate homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "success-stories",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + description + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "customer success stories",
+      "case study highlights",
+      "article previews with large images"
+    ],
+    "notSuitableFor": [
+      "icon-based feature cards",
+      "cards without images"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-25T20:55:00.000Z"
+  }
+}
