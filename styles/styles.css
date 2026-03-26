@@ -333,7 +333,7 @@ main .section.accent {
 /* accent announcement bar */
 main .section.accent > .default-content-wrapper {
   max-width: 100%;
-  padding: 16px 24px;
+  padding: 24px 15px;
   background-color: #545c69;
   text-align: center;
 }
