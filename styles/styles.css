@@ -323,3 +323,23 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+/* accent announcement bar */
+main .section.accent > .default-content-wrapper {
+  max-width: unset;
+  padding: 16px 24px;
+  background-color: #545c69;
+  text-align: center;
+}
+
+main .section.accent > .default-content-wrapper p {
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+main .section.accent > .default-content-wrapper a {
+  color: white;
+  font-weight: 700;
+}
